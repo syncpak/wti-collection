@@ -20,4 +20,5 @@ configuration to specify custom locations.
 HTML documentation is not yet being built, but if you have
 the collection installed you can access each module's
 documentation via the ansible-doc command.
+i.e. `ansible-doc wti.remote.cpm_time_info`
 
