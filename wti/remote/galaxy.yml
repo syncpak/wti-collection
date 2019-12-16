@@ -43,13 +43,13 @@ tags:
 dependencies: {}
 
 # The URL of the originating SCM repository
-repository: http://example.com/repository
+repository: https://github.com/syncpak/wti-collection
 
 # The URL to any online docs
-documentation: http://docs.example.com
+documentation: https://github.com/syncpak/wti-collection/tree/master/wti/remote/docs
 
 # The URL to the homepage of the collection/project
 homepage: https://www.wti.com
 
 # The URL to the collection issue tracker
-issues: http://example.com/issue/tracker
+issues: https://github.com/syncpak/wti-collection/issues
