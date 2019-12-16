@@ -14,8 +14,6 @@ directory, `~/.ansible/collections`, or the system-wide
 `/usr/share/ansible/collections`, or you can modify Ansible's
 configuration to specify custom locations.
 
-Clone this repo into whichever location strikes your fancy as
-`collections/ansible_collections/flowerysong/sensu_go`
 
 ## Where's the Documentation?
 
