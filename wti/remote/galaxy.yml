@@ -9,7 +9,7 @@ readme: README.md
 # A list of the collection's content authors. Can be just the name or in the format 'Full Name <email> (url)
 # @nicks:irc/im.site#channel'
 authors:
-- Ken Partridge <kenp@wti.com> (@wtinetworkgear)
+- Ken Partridge <kenp@wti.com> (@syncpak)
 
 
 ### OPTIONAL but strongly recommended
@@ -43,13 +43,13 @@ tags:
 dependencies: {}
 
 # The URL of the originating SCM repository
-repository: https://github.com/syncpak/wti-collection
+repository: https://github.com/wtinetworkgear/wti-collection
 
 # The URL to any online docs
-documentation: https://github.com/syncpak/wti-collection/tree/master/wti/remote/docs
+documentation: https://github.com/wtinetworkgear/wti-collection/tree/master/wti/remote/docs
 
 # The URL to the homepage of the collection/project
 homepage: https://www.wti.com
 
 # The URL to the collection issue tracker
-issues: https://github.com/syncpak/wti-collection/issues
+issues: https://github.com/wtinetworkgear/wti-collection/issues

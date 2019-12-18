@@ -17,20 +17,30 @@ Requirements
 Installation
 -------
 
-Ansible Collections were added as a technology preview in Ansible 2.8,
-and are a new method of distributing namespaced Ansible components
-that are not integrated into the core source tree.
 
-They can be installed into a playbook-adjacent `collections`
-directory, `~/.ansible/collections`, or the system-wide
-`/usr/share/ansible/collections`, or you can modify Ansible's
-configuration to specify custom locations.
+Through Galaxy:
+
+```
+ansible-galaxy collection install wti.aoscx
+
+
+Inventory Variables
+--------------
+
+The common variables that should be defined in your inventory for your WTI host are:
+
+* `cpm_url`: IP address of device in `A.B.C.D` format.  
+* `cpm_username`: Username for device in `plaintext` format  
+* `cpm_password`: Password for device in `plaintext` format  
+* `use_https`: Set `True` or `False` depending on if Ansible should use a secure https connection  
+* `validate_certs`: Set `True` or `False` depending on if Ansible should attempt to validate certificates  
+* `use_proxy`: Set `True` or `False` depending if Ansible should bypass environment proxies to connect to the WTI device   
 
 
 Contribution
 -------
 At WTI we're dedicated to ensuring the quality of our products, if you find any
-issues at all please open an issue on our [Github](https://github.com/syncpak/wti-collection) and we'll be sure to respond promptly!
+issues at all please open an issue on our [Github](https://github.com/wtinetworkgear/wti-collection) and we'll be sure to respond promptly!
 Or you can always email us directly at support@wti.com
 
 
