@@ -21,7 +21,8 @@ Installation
 Through Galaxy:
 
 ```
-ansible-galaxy collection install wti.aoscx
+ansible-galaxy collection install wti.remote
+```
 
 
 Inventory Variables
