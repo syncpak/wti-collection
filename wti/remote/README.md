@@ -1,9 +1,21 @@
-# WTI Device  Ansible Modules
+WTI Ansible Collection
+=========
 
-This [Ansible](https://www.ansible.com/) Collection implements a number of
-modules for interacting with [WTI Devices](https://wti.com/).
+This [Ansible](https://www.ansible.com/) collection provides a set of platform dependent configuration
+ management modules specifically designed for  [WTI OOB and PDU devices](https://wti.com/) .
 
-## Installation
+Requirements
+------------
+
+* Python 2.7 or 3.5+
+* Ansible 2.9.0 or later
+* Supported WTI firmware (DSM/CPM v6.58+, VMR 2.15+)
+* Configuration command needs a user with Administrator privileges
+
+
+
+Installation
+-------
 
 Ansible Collections were added as a technology preview in Ansible 2.8,
 and are a new method of distributing namespaced Ansible components
@@ -15,10 +27,18 @@ directory, `~/.ansible/collections`, or the system-wide
 configuration to specify custom locations.
 
 
-## Where's the Documentation?
+Contribution
+-------
+At WTI we're dedicated to ensuring the quality of our products, if you find any
+issues at all please open an issue on our [Github](https://github.com/syncpak/wti-collection) and we'll be sure to respond promptly!
+Or you can always email us directly at support@wti.com
 
-HTML documentation is not yet being built, but if you have
-the collection installed you can access each module's
-documentation via the ansible-doc command.
-i.e. `ansible-doc wti.remote.cpm_time_info`
 
+License
+-------
+
+Apache-2.0
+
+Author Information
+------------------
+ - Ken Partridge (@syncpak)
